@@ -1,0 +1,29 @@
+
+body{
+    background-color: burlywood;
+}
+.container{
+  
+    margin-top:  150px; ;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    box-shadow: burlywood;
+}
+.counter{
+    font-size: 50px;
+    font-weight: 32px;
+}
+.button-container{
+    position: relative;
+    margin-top: 32px;
+    
+}
+.btn{
+    font-size: 25px;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-left: 6px;
+    background-color: lightblue;
+}
