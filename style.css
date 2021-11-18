@@ -27,3 +27,9 @@ body{
     margin-left: 6px;
     background-color: lightblue;
 }
+.reset{
+    margin-left: 45px;
+    border-radius: 75%;
+    height: 64px;
+    width: 64px;
+}

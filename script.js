@@ -6,23 +6,30 @@ let counter =0;
  btns.forEach(function (btn){
      btn.addEventListener("click",function (e){
          const styles = e.currentTarget.classList;
-         if(styles.contains("decrease"))
-         {
-             counter--;
-
-         }
-         else if(styles.contains("increase"))
-         {
-             counter++;
-         }
-         else
-         {
-             counter=0;
-         }
-
+  
+            if(styles.contains("decrease"))
+            {
+                counter--;
+                   btn.style.color="red";
+  
+            }
+            else if(styles.contains("increase"))
+            { 
+                counter++;
+               btn.style.color="green";
+                
+            }
+            else
+            {
+                counter=0;
+               btn.style.color="yellow";
+                
+            }
+       
+     
          if(counter>0)
-         {
-             value.style.color="green";
+         {  
+           value.style.color="green";
          }
         else if(counter<0)
          {
@@ -30,8 +37,9 @@ let counter =0;
          }
          else
          {
-             value.style.color="blue";
+            value.style.color="yellow";
          }
+        
          value.textContent=counter;
      });
  });
