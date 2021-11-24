@@ -26,14 +26,14 @@ let counter =0;
                 
             }
        
-     
+          
          if(counter>0)
          {  
            value.style.color="green";
          }
         else if(counter<0)
          {
-             value.style.color="red";
+             counter=0;
          }
          else
          {
